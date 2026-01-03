@@ -63,10 +63,10 @@ const AboutSection = () => {
             }`}
           >
             <p className="text-lg mb-6 opacity-90">
-              I'm a passionate Full-stack developer with 3+ years of experience
-              building responsive, user-focused web applications. I enjoy
-              turning complex problems into simple, elegant solutions using
-              modern front-end and full-stack technologies.
+              I&apos;m a passionate Full-stack developer with 3+ years of
+              experience building responsive, user-focused web applications. I
+              enjoy turning complex problems into simple, elegant solutions
+              using modern front-end and full-stack technologies.
             </p>
             <p className="text-lg mb-6 opacity-90">
               My core expertise lies in JavaScript, React, Next.js, and modern
@@ -76,11 +76,11 @@ const AboutSection = () => {
               performant and visually polished.
             </p>
             <p className="text-lg opacity-90">
-              I'm always eager to learn new tools, improve my craft, and
+              I&apos;m always eager to learn new tools, improve my craft, and
               collaborate with teams that value quality and innovation. Whether
-              it's translating designs into high-quality UI or building scalable
-              features, I take pride in delivering work that creates real
-              impact.
+              it&apos;s translating designs into high-quality UI or building
+              scalable features, I take pride in delivering work that creates
+              real impact.
             </p>
           </div>
           <div className=" hidden md:flex">

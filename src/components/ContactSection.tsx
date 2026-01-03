@@ -14,7 +14,7 @@ const ContactSection = () => {
     >
       <div className=" max-w-3xl mx-auto text-center">
         <h2 className=" text-4xl lg:text-5xl font-bold mb-6">
-          Let's Work{" "}
+          Let&apos;s Work{" "}
           <span className=" bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
             Together
           </span>
@@ -24,8 +24,8 @@ const ContactSection = () => {
             darkMode ? " text-gray-400" : " text-gray-600"
           } mb-10`}
         >
-          I'm always interested in hearing about new projects and opportunities.
-          Let's create something amazing!
+          I&apos;m always interested in hearing about new projects and
+          opportunities. Let&apos;s create something amazing!
         </p>
         <a
           href="mailto:dalviss10@gmail.com"

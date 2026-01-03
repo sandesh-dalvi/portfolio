@@ -6,7 +6,6 @@ import SkillsSection from "@/components/SkillsSection";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import { useTheme } from "@/contexts/ThemeContext";
-import { useScroll } from "@/contexts/ScrollContext";
 
 const MainSection = () => {
   const { darkMode } = useTheme();

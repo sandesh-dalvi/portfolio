@@ -1,10 +1,9 @@
-import { useScroll } from "@/contexts/ScrollContext";
 import { useTheme } from "@/contexts/ThemeContext";
 import { skills } from "@/utils";
 
 const SkillsSection = () => {
   const { darkMode } = useTheme();
-  const { visibleElements } = useScroll();
+
   return (
     <section
       id="skills"

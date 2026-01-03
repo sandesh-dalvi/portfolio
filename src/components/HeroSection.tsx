@@ -22,7 +22,7 @@ const HeroSection = () => {
         </div>
 
         <h1 className=" text-6xl md:text-7xl font-bold mb-6 animate-slide-up">
-          Hi, I'm{" "}
+          Hi, I&apos;m{" "}
           <span className=" bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
             Sandesh Dalvi
           </span>
