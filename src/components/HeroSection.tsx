@@ -32,7 +32,7 @@ const HeroSection = () => {
           className=" text-xl md:text-2xl mb-8 opacity-80 animate-slide-up"
           style={{ animationDelay: "0.2s" }}
         >
-          Web Developer
+          Full Stack Developer
         </p>
         <div
           className=" flex gap-4 justify-center mb-12 animate-slide-up"

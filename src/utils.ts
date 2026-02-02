@@ -1,4 +1,5 @@
-import project1 from "@/assets/project1.png";
+import jobTrackerApp from "./assets/job-tracker-app.png";
+import aiChatApp from "./assets/ai-chat-app.png";
 
 import {
   FaFigma,
@@ -22,32 +23,34 @@ import { MdCss } from "react-icons/md";
 
 export const projects = [
   {
-    image: project1,
-    title: "E-Commerce Platform",
-    desc: "A full-featured online store with payment integration, inventory, inventory management and real-time analytics dashboard.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "#",
+    image: jobTrackerApp,
+    title: "Job Application Tracker",
+    desc: "A MERN stack Job Application Tracker that allows users to create, manage, and track job applications with real-time status updates through a clean and responsive interface.",
+    tags: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "TailwindCSS",
+      "Redux Toolkit",
+    ],
+    link: "https://jobtrackerapps.netlify.app",
   },
   {
-    image: project1,
-    title: "E-Commerce Platform",
-    desc: "A full-featured online store with payment integration, inventory, inventory management and real-time analytics dashboard.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "#",
-  },
-  {
-    image: project1,
-    title: "E-Commerce Platform",
-    desc: "A full-featured online store with payment integration, inventory, inventory management and real-time analytics dashboard.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "#",
-  },
-  {
-    image: project1,
-    title: "E-Commerce Platform",
-    desc: "A full-featured online store with payment integration, inventory, inventory management and real-time analytics dashboard.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "#",
+    image: aiChatApp,
+    title: "AI Chat App",
+    desc: "An AI-powered chat application built with Vue.js and a Node.js/Express backend, using PostgreSQL for persistence and streaming AI responses in real time with OpenAI, all implemented in TypeScript.",
+    tags: [
+      "Vue.js",
+      "Node.js",
+      "Express.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Stream",
+      "TailwindCSS",
+      "OpenAI",
+    ],
+    link: "https://ai-chat-app-ui.vercel.app/",
   },
 ];
 

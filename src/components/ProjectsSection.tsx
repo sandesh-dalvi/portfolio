@@ -18,6 +18,7 @@ const ProjectsSection = () => {
         <div className=" grid md:grid-cols-2 gap-8">
           {projects.map((project, i) => (
             <a
+              target="_blank"
               href={project.link}
               key={i}
               data-animate
@@ -33,7 +34,7 @@ const ProjectsSection = () => {
               }`}
             >
               <div
-                className={`relative h-48 overflow-hidden ${
+                className={`relative h-48 md:h-56 xl:h-64 overflow-hidden ${
                   darkMode
                     ? "from-indigo-900/20 to-purple-900/20"
                     : "from-indigo-50 to-purple-50"
@@ -42,14 +43,14 @@ const ProjectsSection = () => {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  className=" w-full h-full object-cover opacity-80 group-hover:scale-110 group-hover:opacity-100 transition-all duration-500"
+                  className=" w-full h-full object-fit opacity-90 group-hover:scale-110 group-hover:opacity-100 transition-all duration-500"
                 />
                 <div
                   className={`absolute inset-0 ${
                     darkMode
                       ? " bg-gradient-to-t from-zinc-950 to-transparent"
                       : " bg-gradient-to-t from-gray-50 to-transparent"
-                  } opacity-60`}
+                  } opacity-65`}
                 ></div>
               </div>
               <div className=" p-6">

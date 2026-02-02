@@ -25,19 +25,21 @@ const Header = () => {
             <div className=" text-2xl font-bold bg-gradient-to-r from-purple-500  to-violet-600 bg-clip-text text-transparent">
               Sandesh
             </div>
-            <div
-              className=" flex items-center gap-8
+            <div className=" flex gap-4 md:gap-6">
+              <div
+                className="hidden sm:flex items-center gap-8
         "
-            >
-              {links.map((link) => (
-                <a
-                  href={link.href}
-                  key={link.href}
-                  className=" hover:text-indigo-500 transition-colors capitalize"
-                >
-                  {link.name}
-                </a>
-              ))}
+              >
+                {links.map((link) => (
+                  <a
+                    href={link.href}
+                    key={link.href}
+                    className=" hover:text-indigo-500 transition-colors capitalize"
+                  >
+                    {link.name}
+                  </a>
+                ))}
+              </div>
               <button
                 onClick={toggleTheme}
                 className={`p-2 rounded-full transition-all duration-300 cursor-pointer`}
@@ -68,19 +70,21 @@ const Header = () => {
           <div className=" text-2xl font-bold bg-gradient-to-r from-purple-500  to-violet-600 bg-clip-text text-transparent">
             Sandesh
           </div>
-          <div
-            className=" flex items-center gap-8
-        "
-          >
-            {links.map((link) => (
-              <a
-                href={link.href}
-                key={link.href}
-                className=" hover:text-indigo-500 transition-colors capitalize"
-              >
-                {link.name}
-              </a>
-            ))}
+          <div className=" flex gap-4 md:gap-6">
+            <div
+              className="hidden sm:flex items-center gap-8
+            "
+            >
+              {links.map((link) => (
+                <a
+                  href={link.href}
+                  key={link.href}
+                  className=" hover:text-indigo-500 transition-colors capitalize"
+                >
+                  {link.name}
+                </a>
+              ))}
+            </div>
             <button
               onClick={toggleTheme}
               className={`p-2 rounded-full transition-all duration-300 cursor-pointer ${
